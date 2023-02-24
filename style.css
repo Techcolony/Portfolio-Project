@@ -20,6 +20,7 @@ body {
 
 .logo {
   margin-left: 1.5rem;
+  margin-top: 0.875rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -32,11 +33,12 @@ a {
   text-decoration: none;
   font-size: 18px;
   line-height: 20px;
+  cursor: pointer;
 }
 
 .drop-bar {
   margin-right: 2.25rem;
-  margin-top: 0.0875rem;
+  margin-top: 0.875rem;
 }
 
 .headline {
