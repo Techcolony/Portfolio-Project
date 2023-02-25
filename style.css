@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .nav-bar {
@@ -114,7 +114,7 @@ button:active {
   color: #fff;
 }
 
-  /* Works */
+/* Works */
 .works {
   display: flex;
   flex-direction: column;
@@ -123,9 +123,8 @@ button:active {
   position: absolute;
   width: 375px;
   height: 2788px;
-  left: 0px;
   top: 718px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .card-works1 {
@@ -136,8 +135,8 @@ button:active {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -149,8 +148,8 @@ button:active {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -162,8 +161,8 @@ button:active {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -175,8 +174,8 @@ button:active {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -191,18 +190,18 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
 }
 
 .project h1 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .project1 {
@@ -210,14 +209,14 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0px;
+  gap: 0;
 }
 
 .project ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   margin-top: 15px;
 }
@@ -226,7 +225,7 @@ button:active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   margin-top: 60px;
 }
@@ -234,12 +233,12 @@ button:active {
 .project1 h1 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-bottom: 10px;
 }
 
@@ -258,13 +257,13 @@ button:active {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .project-content {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -277,11 +276,11 @@ button:active {
   width: 8px;
   height: 8px;
   border-radius: 2px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .project-list li {
-  background: #EBEBFF;
+  background: #ebebff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -292,7 +291,7 @@ button:active {
   padding: 10px;
   height: 28px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   margin-top: 13px;
 }
 
@@ -309,7 +308,7 @@ button:active {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396DF2;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 14px;
   margin-bottom: 30px;
@@ -372,7 +371,7 @@ button:active {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   width: 327px;
   margin-bottom: 40px;
 }
@@ -388,16 +387,8 @@ button:active {
   margin-bottom: 35px;
 }
 
-.language {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px;
-  gap: 12px;
-}
-
 .language li {
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 303px;
   height: 66.72px;
@@ -406,7 +397,7 @@ button:active {
 }
 
 .language ul {
-  margin: 0 0 0 0px;
+  margin: 0 0 0 0;
 }
 
 .language img {
@@ -425,7 +416,7 @@ button:active {
   line-height: 1.5rem;
   padding: 0.5rem;
   width: 327px;
-  border-bottom: 1px solid #DFE1E6;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .fa {
