@@ -109,7 +109,7 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 24px;
+  /* padding: 114px 24px; */
   gap: 88px;
   position: absolute;
   width: 375px;
@@ -132,14 +132,57 @@ button:active {
   border-radius: 16px;
 }
 
+.card-works2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 596px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.card-works3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.card-works4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 596px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+}
+
+.left-block-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 60px;
+  padding-bottom: 50px;
+}
+
 .project {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 12px;
-  width: 295px;
-  height: 288px;
 }
 
 .project h1 {
@@ -153,15 +196,44 @@ button:active {
   color: #172B4D;
 }
 
+.project1 {
+  width: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+}
+
 .project ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 12px;
-  width: 236px;
-  height: 32px;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.project1 ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  /* width: 236px;
+  height: 32px; */
+  margin-top: 60px;
+}
+
+.project1 h1 {
+  width: 295px;
+  height: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  margin-bottom: 10px;
 }
 
 .canopy {
@@ -182,10 +254,6 @@ button:active {
   color: #7A869A;
 }
 
-ul li ::before{
-  list-style-type: circle;
-}
-
 .project-content {
   width: 295px;
   height: 76px;
@@ -195,17 +263,46 @@ ul li ::before{
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.project-list {
-  display: flex;
+.counter {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: #DFE1E6;
+}
+
+.project-list li {
+  background: #EBEBFF;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 8px;
   align-items: center;
-  justify-content: space-between;
-  width: 203px;
-  height: 24px;
+  padding: 10px;
+  height: 28px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+  margin-top: 13px;
 }
 
 .project-list ul {
-  display: flex;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50px 40px 90px;
+  padding-bottom: 35px;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+  padding: 10px;
 }
